@@ -4,20 +4,57 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-		<link rel="stylesheet" href="stylesheets/styles.css">
+		<link rel="stylesheet" href="stylesheets/styles.css" />
 		<title>Mewountain Tech Cat Bench</title>
 	</head>
 	<body>
 		<header id="header">
-			<img id="header-img" src="images/Logo-Text.svg" alt="logo text image" />
+			<img
+				id="header-img"
+				src="https://images.app.goo.gl/zgM59trZLi9uFYJu5"
+				alt="logo text image"
+			/>
 			<nav id="nav-bar">
 				<ul id="nav-items">
-					<a id="nav-link">Product</a>
-					<a id="nav-link">Get Support</a>
-					<a id="nav-link">Contact</li>
+					<a class="nav-link" href="#catbench">Product</a>
+					<a class="nav-link" href="#getupdates">Get Updates</a>
+					<a class="nav-link" href="#contact">Contact</a>
 				</ul>
 			</nav>
 		</header>
+
+		<div id="catbench">
+			<div class="catbench__info">
+				<h1 class="catbench__name">Cat Bench</h1>
+				<h3 class="catbench__price">$14.99</h3>
+				<p class="catbench__description">
+					This cat bench suctions to your window, and can hold multiple cats.
+					The suction is strong enough to be moved from window to window, so
+					whether you’re moving, or your furry friends just want a change of
+					scenery, the Cat Bench will fit your needs.
+				</p>
+			</div>
+			<img
+				class="catbench__img"
+				src="images/catsonbench.svg"
+				alt="Two cats sharing a cat bench that is suctioned to the window"
+			/>
+		</div>
+
+		<div id="getupdates">
+			<form id="form" action="https://www.freecodecamp.com/email-submit">
+				<input
+					id="email"
+					type="email"
+					name="email"
+					placeholder="Please enter your email"
+				/>
+				<input id="submit" type="submit" />
+			</form>
+		</div>
+		<div id="contact"></div>
+
+		<video id="video" src="https://www.youtube.com/watch?v=jy2gfvpMkN8"></video>
 
 		<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 	</body>
